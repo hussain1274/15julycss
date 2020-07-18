@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #demo{
+                widows: 100px;
+                height: 100px;
+                background: black;
+                position: relative;
+                animation: mydemo 10s;
+                animation-fill-mode: backwards;
+            }
+            @keyframes mydemo{
+                from { top:200px;background: gray;}
+                to{bottom: 10px; background: greenyellow;}
+            }
+        </style>
+
+    </head>
+    <body>
+        <h2>Animation Demo</h2>
+        <div id="demo"></div>
+    </body>
+</html>
